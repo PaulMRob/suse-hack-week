@@ -1,0 +1,1 @@
+# suse-hack-week
