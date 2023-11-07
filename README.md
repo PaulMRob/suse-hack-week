@@ -1,1 +1,1 @@
-# suse-hack-week Le'ts build somehting cool!
+# suse-hack-week Let's build somehting cool!

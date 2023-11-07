@@ -1,0 +1,30 @@
+{
+
+  "manifest_version": 2,
+  "name": "SUSE-Hack-Week",
+  "version": "1.1",
+
+  "description": "What this extension does is still up in the air.",
+  "icons": {
+    "48": "icons/suse-48.png"
+  },
+
+  "permissions": [
+    "storage"
+  ],
+
+  "browser_action": {
+    "default_icon": {
+     "32" : "icons/suse-32.png"
+    },
+    "default_title": "SUSE",
+    "default_popup": "popup/suse.html"
+  },
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "quicknote-example@mozilla.org"
+    }
+  }
+
+}
