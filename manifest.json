@@ -1,30 +1,21 @@
 {
-
-  "manifest_version": 2,
-  "name": "SUSE-Hack-Week",
-  "version": "1.1",
-
-  "description": "What this extension does is still up in the air.",
-  "icons": {
-    "48": "icons/suse-48.png"
-  },
-
-  "permissions": [
-    "storage"
-  ],
-
   "browser_action": {
+    "browser_style": true,
+    "default_title": "List cookies in the active tab",
+    "default_popup": "suse.html",
     "default_icon": {
-     "32" : "icons/suse-32.png"
-    },
-    "default_title": "SUSE",
-    "default_popup": "popup/suse.html"
-  },
-
-  "browser_specific_settings": {
-    "gecko": {
-      "id": "quicknote-example@mozilla.org"
+      "19": "icons/default19.png",
+      "38": "icons/default38.png"
     }
-  }
-
+  },
+  "description": "List cookies in the active tab.",
+  "icons": {
+    "48": "icons/cookie.png",
+    "96": "icons/cookie@2x.png"
+  },
+  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/list-cookies",
+  "manifest_version": 2,
+  "name": "List cookies",
+  "version": "1.0",
+  "permissions": ["cookies","<all_urls>","tabs"]
 }
